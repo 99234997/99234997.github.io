@@ -1,16 +1,16 @@
-Origin: 来了来了
-Label: 来了来了
+Origin: 啦啦啦
+Label: 啦啦啦
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 来了来了
+Description: 啦啦啦
 Support: https://99234997.github.io/
 Icon: https://99234997.github.io/CydiaIcon.png
 MD5Sum:
  9332fc2d2e32f54cc76f24df1c07adbb  5922 Packages
- 5f13cbc695867d18cc37b4e535c85d2d  3013 Packages.gz
+ ca2d42a025baf08702509a0cb455c8fd  3013 Packages.gz
 SHA256:
  f666d38eec19318ac8b1d85448d3c9b4bc23f55546b38e39d2614070c587eee2  5922 Packages
- bfd32cc1c8375933a0b4b2c3a246988e043acd965628306b4a0dc42250b66423  3013 Packages.gz
+ b30e1f8ce0928871fb36f334a930462bb869a5e3d92cdd11f4ca076eb69b0085  3013 Packages.gz
