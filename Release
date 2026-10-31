@@ -1,16 +1,16 @@
-Origin: 
-Label: 
+Origin: 齐天大圣
+Label: 齐天大圣
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 
+Description: 齐天大圣
 Support: https://99234997.github.io/
 Icon: https://99234997.github.io/CydiaIcon.png
 MD5Sum:
  c23f66c4d3188fb43be50117a803995c  4137 Packages
- 87aa584eb66f7b4fad9252281afa3055  2160 Packages.gz
+ 3fb2a425c39cca8689b6815d5774a8c1  2160 Packages.gz
 SHA256:
  8796c44ed68f1cfbbc70d0742915b762a2b0d49e13d99549ab2d2f7af04e0786  4137 Packages
- 5d71e35b93262ff500ae5d6ef93a087d67e39054c43aaaadf0ab58d79b6940ca  2160 Packages.gz
+ b164176cb1854de41fcd10184b10ab5fe1e3d89320b0052f80d774f4f57330c5  2160 Packages.gz
