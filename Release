@@ -1,16 +1,16 @@
-Origin: 
-Label: 
+Origin: 大西瓜
+Label: 大西瓜
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 
+Description: 大西瓜
 Support: https://99234997.github.io/
 Icon: https://99234997.github.io/CydiaIcon.png
 MD5Sum:
  c23f66c4d3188fb43be50117a803995c  4137 Packages
- 9f48f3ad95561a637d8c3f1e58982cc0  2160 Packages.gz
+ 50c54c6135f423910561820f9d2de153  2160 Packages.gz
 SHA256:
  8796c44ed68f1cfbbc70d0742915b762a2b0d49e13d99549ab2d2f7af04e0786  4137 Packages
- d21561d1ddb92a8c9da8a318ecb68eaac1c78affc79bd371408465f00c64a62f  2160 Packages.gz
+ f764f3b5fb31145581017fb5ec3872f77d50a4f709cea0c008f4b238953dd9fe  2160 Packages.gz
