@@ -1,16 +1,16 @@
-Origin: 大西瓜
-Label: 大西瓜
+Origin: 来了来了
+Label: 来了来了
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 大西瓜
+Description: 来了来了
 Support: https://99234997.github.io/
 Icon: https://99234997.github.io/CydiaIcon.png
 MD5Sum:
  c23f66c4d3188fb43be50117a803995c  4137 Packages
- 50c54c6135f423910561820f9d2de153  2160 Packages.gz
+ 35ce41baed695122387c9c40225146b1  2160 Packages.gz
 SHA256:
  8796c44ed68f1cfbbc70d0742915b762a2b0d49e13d99549ab2d2f7af04e0786  4137 Packages
- f764f3b5fb31145581017fb5ec3872f77d50a4f709cea0c008f4b238953dd9fe  2160 Packages.gz
+ ea6e57181069f4e29b1cf1d9e45481d2b8bd0d795cc03af5225c6167cea55281  2160 Packages.gz
