@@ -22,7 +22,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev
       - name: Build index
         env:
-          REPO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          GH_OWNER: ${{ github.repository_owner }}
+          GH_REPO: ${{ github.event.repository.name }}
         run: |
           set -e
           bash scripts/make-index.sh || { echo "::error::make-index.sh 失败"; exit 1; }
