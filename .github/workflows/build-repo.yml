@@ -26,6 +26,20 @@ jobs:
           GH_REPO: ${{ github.event.repository.name }}
         run: |
           set -e
+          # 仓库名就是 owner.github.io 时，Pages 地址是 https://owner.github.io/
+          # 否则是 https://owner.github.io/repo/ —— 拼错会让 Release 的 Support 变成重复路径
+          if [ "$GH_REPO" = "$GH_OWNER.github.io" ]; then
+            REPO_URL="https://$GH_OWNER.github.io/"
+          else
+            # 仓库名就是 owner.github.io 时，Pages 根地址是 https://owner.github.io/
+            # 否则才是 https://owner.github.io/仓库名/
+            case "$GH_REPO" in
+              "$GH_OWNER.github.io") REPO_URL="https://$GH_OWNER.github.io/" ;;
+              *) REPO_URL="https://$GH_OWNER.github.io/$GH_REPO/" ;;
+            esac
+          fi
+          export REPO_URL
+          echo "源地址: $REPO_URL"
           bash scripts/make-index.sh || { echo "::error::make-index.sh 失败"; exit 1; }
           echo "---- 生成的 Packages ----"; cat Packages
       - name: Commit and push
