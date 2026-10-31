@@ -21,7 +21,7 @@ Maintainer: Axs <qiaozhini000@163.com>
 Installed-Size: 1620
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
-Filename: debs/Snapper_4_5.2.0-46_.ipHONEOS-arm64.deb
+Filename: debs/Snapper45.2.0-46贴图版.ipHONEOS-arm64.deb
 Size: 398720
 MD5sum: fbd4461130dd6c08ac77abdbd250c88f
 SHA1: dba84f10879ec88096da5053bfa8793172327d46
