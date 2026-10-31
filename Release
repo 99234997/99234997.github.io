@@ -1,15 +1,15 @@
-Origin: 99234997 的源
-Label: 99234997 的源
+Origin: 无敌
+Label: 无敌
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 99234997 的越狱软件源
+Description: 无敌
 Support: https://99234997.github.io/99234997.github.io/
 MD5Sum:
  26a1f501015e858b3a024ca5ddc6ece9  530 Packages
- c561cb3e2a5997a0c2bf8a925b8b7728  397 Packages.gz
+ 75a9d45ae53aa123c500ddade60499fd  397 Packages.gz
 SHA256:
  8404ae4f37364b622106edb732648e70b6e7ec674bd490dec8efea4b38f5979f  530 Packages
- f9c5ca3f08291b499cb28583247aa46435567046f3f121cefd273b7baecc9a4f  397 Packages.gz
+ 00b6c5b68efba9c9c58a0084221c91f84124016f7fe710131777bdc49ff9fb85  397 Packages.gz
